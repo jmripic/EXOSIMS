@@ -390,7 +390,7 @@ class SimulatedUniverse(object):
             self.M0 = np.random.uniform(360, size=int(self.nPlans)) * u.deg
 
     def init_systems(self):
-        """Finds initial time-dependant parameters. Assigns each planet an
+        """Finds initial time-dependent parameters. Assigns each planet an
         initial position, velocity, planet-star distance, apparent separation,
         phase function, surface brightness of exo-zodiacal light, delta
         magnitude, and working angle.
@@ -459,7 +459,7 @@ class SimulatedUniverse(object):
             )  # working angle
 
     def propag_system(self, sInd, dt):
-        """Propagates planet time-dependant parameters: position, velocity,
+        """Propagates planet time-dependent parameters: position, velocity,
         planet-star distance, apparent separation, phase function, surface brightness
         of exo-zodiacal light, delta magnitude, and working angle.
 
@@ -788,7 +788,7 @@ class SimulatedUniverse(object):
         self.init_systems()
 
     def dump_system_params(self, sInd=None):
-        """Create a dictionary of time-dependant planet properties for a specific target
+        """Create a dictionary of time-dependent planet properties for a specific target
 
         Args:
             sInd (int):
@@ -797,7 +797,7 @@ class SimulatedUniverse(object):
 
         Returns:
             dict:
-                Dictionary of time-dependant planet properties
+                Dictionary of time-dependent planet properties
 
         """
 
