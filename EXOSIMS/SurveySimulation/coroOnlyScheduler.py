@@ -1032,7 +1032,7 @@ class coroOnlyScheduler(SurveySimulation):
             JEZ (astropy Quantity):
                 Intensity of exo-zodiacal light in units of ph/s/m2/arcsec2
             systemParams (dict):
-                Dictionary of time-dependant planet properties averaged over the
+                Dictionary of time-dependent planet properties averaged over the
                 duration of the integration
             SNR (float ndarray):
                 Characterization signal-to-noise ratio of the observable planets.
@@ -1432,7 +1432,7 @@ class coroOnlyScheduler(SurveySimulation):
             JEZ (astropy Quantity):
                 Intensity of exo-zodiacal light in units of ph/s/m2/arcsec2
             systemParams (dict):
-                Dictionary of time-dependant planet properties averaged over the
+                Dictionary of time-dependent planet properties averaged over the
                 duration of the integration
             SNR (float ndarray):
                 Characterization signal-to-noise ratio of the observable planets.

@@ -1778,7 +1778,7 @@ class SurveySimulation(object):
                 JEZ (astropy.units.Quantity(numpy.ndarray(float))):
                     Intensity of exo-zodiacal light in units of photons/s/m2/arcsec2
                 systemParams (dict):
-                    Dictionary of time-dependant planet properties averaged over the
+                    Dictionary of time-dependent planet properties averaged over the
                     duration of the integration
                 SNR (numpy.darray(float)):
                     Detection signal-to-noise ratio of the observable planets
@@ -2045,7 +2045,7 @@ class SurveySimulation(object):
                 JEZ (astropy.units.Quantity(numpy.ndarray(float))):
                     Intensity of exo-zodiacal light in units of photons/s/m2/arcsec
                 systemParams (dict):
-                    Dictionary of time-dependant planet properties averaged over the
+                    Dictionary of time-dependent planet properties averaged over the
                     duration of the integration
                 SNR (numpy.ndarray(float)):
                     Characterization signal-to-noise ratio of the observable planets.
