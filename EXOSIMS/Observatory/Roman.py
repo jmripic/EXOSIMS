@@ -31,7 +31,7 @@ class Roman(Observatory):
             obj = Horizons(
                 id="-211",
                 location="500@10",
-                epochs={"start": "2026-10-31", "stop": "2032-01-28", "step": "1d"},
+                epochs={"start": "2026-08-31", "stop": "2028-08-29", "step": "1d"},
             )
             roman_ecliptic_vectors_table = obj.vectors()
             roman_ecliptic_vectors_table.write(eclip_file)
